@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/urbanear/static/css/main.83083280.css",
+    "main.js": "/urbanear/static/js/main.1c8657fe.js",
+    "static/js/879.f3670983.chunk.js": "/urbanear/static/js/879.f3670983.chunk.js",
+    "static/js/952.0f44ff7a.chunk.js": "/urbanear/static/js/952.0f44ff7a.chunk.js",
+    "index.html": "/urbanear/index.html",
+    "main.83083280.css.map": "/urbanear/static/css/main.83083280.css.map",
+    "main.1c8657fe.js.map": "/urbanear/static/js/main.1c8657fe.js.map",
+    "879.f3670983.chunk.js.map": "/urbanear/static/js/879.f3670983.chunk.js.map",
+    "952.0f44ff7a.chunk.js.map": "/urbanear/static/js/952.0f44ff7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83083280.css",
+    "static/js/main.1c8657fe.js"
+  ]
+}
