@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/urbanear/static/css/main.4142e7df.css",
-    "main.js": "/urbanear/static/js/main.19efcaf3.js",
+    "main.js": "/urbanear/static/js/main.d6598e3d.js",
     "static/js/879.ff9ae16c.chunk.js": "/urbanear/static/js/879.ff9ae16c.chunk.js",
     "static/js/72.16adc1ff.chunk.js": "/urbanear/static/js/72.16adc1ff.chunk.js",
     "static/js/431.43086c6e.chunk.js": "/urbanear/static/js/431.43086c6e.chunk.js",
     "index.html": "/urbanear/index.html",
     "main.4142e7df.css.map": "/urbanear/static/css/main.4142e7df.css.map",
-    "main.19efcaf3.js.map": "/urbanear/static/js/main.19efcaf3.js.map",
+    "main.d6598e3d.js.map": "/urbanear/static/js/main.d6598e3d.js.map",
     "879.ff9ae16c.chunk.js.map": "/urbanear/static/js/879.ff9ae16c.chunk.js.map",
     "72.16adc1ff.chunk.js.map": "/urbanear/static/js/72.16adc1ff.chunk.js.map",
     "431.43086c6e.chunk.js.map": "/urbanear/static/js/431.43086c6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4142e7df.css",
-    "static/js/main.19efcaf3.js"
+    "static/js/main.d6598e3d.js"
   ]
 }
