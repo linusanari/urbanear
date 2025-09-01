@@ -13,8 +13,6 @@ export default function LayerToggle({ showPoints, setShowPoints, showLULC, setSh
         /> Choropleth
       </label> 
       */}
-
-<br/>
       <label>
         <input
           type="checkbox"
