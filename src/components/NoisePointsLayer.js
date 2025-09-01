@@ -12,10 +12,11 @@ const NoisePointsLayer = {
       'interpolate',
       ['linear'],
       ['get', 'instantaneous'],
-       40, '#31688E',
-       60, '#35B779',
-       80, '#FDE724',
-       100, '#FF0000'
+       40, '#1a9850',
+       55, '#91cf60',
+       65, '#fee08b',
+       75, '#fc8d59',
+       100, '#d73027'
     ],
     'circle-stroke-width': 1,
     'circle-stroke-color': '#ffffff'

@@ -14,6 +14,15 @@ export default function LayerToggle({ showPoints, setShowPoints, showLULC, setSh
       </label> 
       */}
 
+<br/>
+      <label>
+        <input
+          type="checkbox"
+          checked={showPoints}
+          onChange={() => setShowPoints(!showPoints)}
+        /> Noise Points
+      </label>
+      <br/>
       <label>
         <input
           type="checkbox"
@@ -22,15 +31,8 @@ export default function LayerToggle({ showPoints, setShowPoints, showLULC, setSh
         /> Grid Layer
       </label>
 
+      <br/>
 
-      <label>
-        <input
-          type="checkbox"
-          checked={showLULC}
-          onChange={() => setShowLULC(!showLULC)}
-        /> LULC Layer
-      </label>
-        <br/>
       <label>
         <input
           type="checkbox"
@@ -38,15 +40,16 @@ export default function LayerToggle({ showPoints, setShowPoints, showLULC, setSh
           onChange={() => setShowHeatmap(!showHeatmap)}
         /> Heatmap
       </label>
-
       <br/>
       <label>
         <input
           type="checkbox"
-          checked={showPoints}
-          onChange={() => setShowPoints(!showPoints)}
-        /> Noise Points
+          checked={showLULC}
+          onChange={() => setShowLULC(!showLULC)}
+        /> LULC Layer
       </label>
+        
+
     </div>
   );
 }

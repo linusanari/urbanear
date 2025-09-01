@@ -6,11 +6,26 @@ const NoiseLegend = () => (
   <div className="map-legend right">
     <h4>Noise Levels (dB)</h4>
     <div className="legend-scale">
-      <div className="legend-item"><span className="legend-color" style={{ backgroundColor: '#440154' }}></span> Very Low (&lt;40dB)</div>
-      <div className="legend-item"><span className="legend-color" style={{ backgroundColor: '#31688E' }}></span> Low (40–60dB)</div>
-      <div className="legend-item"><span className="legend-color" style={{ backgroundColor: '#35B779' }}></span> Moderate (60–80dB)</div>
-      <div className="legend-item"><span className="legend-color" style={{ backgroundColor: '#FDE724' }}></span> High (80–100dB)</div>
-      <div className="legend-item"><span className="legend-color" style={{ backgroundColor: '#FF0000' }}></span> Very High (&gt;100dB)</div>
+      <div className="legend-item">
+        <span className="legend-color" style={{ backgroundColor: '#1a9850' }}></span>
+        Safe (&lt;40 dB)
+      </div>
+      <div className="legend-item">
+        <span className="legend-color" style={{ backgroundColor: '#91cf60' }}></span>
+        Acceptable (40–55 dB)
+      </div>
+      <div className="legend-item">
+        <span className="legend-color" style={{ backgroundColor: '#fee08b' }}></span>
+        Annoying (55–65 dB)
+      </div>
+      <div className="legend-item">
+        <span className="legend-color" style={{ backgroundColor: '#fc8d59' }}></span>
+        Harmful (65–75 dB)
+      </div>
+      <div className="legend-item">
+        <span className="legend-color" style={{ backgroundColor: '#d73027' }}></span>
+        Very Harmful (&gt;75 dB)
+      </div>
     </div>
   </div>
 );

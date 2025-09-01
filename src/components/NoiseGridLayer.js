@@ -13,12 +13,11 @@ const NoiseGridLayer = ({ gridData }) => {
           'fill-color': [
             'step',
             ['get', 'mean_noise'],
-            '#d9d9d9',
-            55, '#ffffb2',
-            65, '#fecc5c',
-            75, '#fd8d3c',
-            85, '#f03b20',
-            95, '#bd0026'
+            '#1a9850',   // <40 dB - Safe
+            40, '#91cf60', // 40–54 dB - Low
+            55, '#fee08b', // 55–64 dB - Moderate
+            65, '#fc8d59', // 65–74 dB - High
+            75, '#d73027'  // ≥75 dB - Very high
           ],
           'fill-opacity': 0.6,
           'fill-outline-color': '#333'
