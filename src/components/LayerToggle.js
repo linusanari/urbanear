@@ -1,7 +1,7 @@
 // components/LayerToggle.js
 import React from 'react';
 
-export default function LayerToggle({ showPoints, setShowPoints, showLULC, setShowLULC, showChoropleth, setShowChoropleth, showHeatmap, setShowHeatmap }) {
+export default function LayerToggle({ showPoints, setShowPoints, showLULC, setShowLULC, showChoropleth, setShowChoropleth, showHeatmap, setShowHeatmap, showGrid, setShowGrid }) {
   return (
     <div className="layer-toggle">
       {/* 
@@ -13,6 +13,15 @@ export default function LayerToggle({ showPoints, setShowPoints, showLULC, setSh
         /> Choropleth
       </label> 
       */}
+
+      <label>
+        <input
+          type="checkbox"
+          checked={showGrid}
+          onChange={() => setShowGrid(!showGrid)}
+        /> Grid Layer
+      </label>
+
 
       <label>
         <input
