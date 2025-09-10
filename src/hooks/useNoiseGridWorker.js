@@ -16,7 +16,10 @@ export default function useNoiseGridWorker(noiseData, bbox, zoom) {
 
     const worker = new Worker(new URL('../workers/gridWorker.js', import.meta.url), { type: 'module' });
 
-    worker.postMessage({ noiseData, bbox, cellSizeKm: 0.1 });
+    worker.postMessage({ 
+      noiseData, 
+      bbox, 
+      cellSizeKm: 0.50 });
 
     worker.onmessage = (e) => {
       if (e.data.type === 'progress') {
